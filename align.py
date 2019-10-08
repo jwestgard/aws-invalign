@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 
-INPUT = '/Users/westgard/Box Sync/DPI Projects/DigitalPreservation/aws_migration/data/original_inventories/Archive001_2010-07-27_bnafilelist.txt'
+import sys
+from zipfile import ZipFile
 
-with open(INPUT) as handle:
-    for line in handle.readlines():
-        if line.startswith(' ') or line == '\n':
+INPUTZIP = sys.argv[1]
+
+# opening the zip file in READ mode
+with ZipFile(INPUTZIP, 'r') as zip:
+    for item in zip.infolist():
+        if item.path.startswith('__MACOSX'):
             continue
-        else:
-            row = line.strip('\n')
-            print(row.split())
+        elif item.fiename
+            print(file.filename)
+
+
