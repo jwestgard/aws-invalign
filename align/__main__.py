@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 
-import csv
 from .inventory import Inventory
-from io import StringIO
+import os
 import sys
 import yaml
-from zipfile import ZipFile
+
+
+def read_yaml(path):
+    with open(path) as handle:
+        results = yaml.safe_load(handle)
+    return results
 
 
 def read_zip_archive(path):
@@ -24,24 +28,35 @@ def main():
 
     '''Main program logic goes here'''
 
-    MANIFEST = sys.argv[1]
-    INPUTZIP = sys.argv[2]
-    ARCHIVE  = sys.argv[3]
+    config = read_yaml(sys.argv[1])
+
+    MANIFEST  = config['MANIFEST']
+    INPUTZIP  = config['INPUTZIP']
+    SOURCEDIR = config['SOURCEDIR']
+    TARGETDIR = config['TARGETDIR']
+    REQUESTS  = sys.argv[2:] or config['REQUESTS']
 
     with open(MANIFEST) as handle:
-        data = yaml.safe_load(handle)
+        manifest = yaml.safe_load(handle)
 
-    inventories = data.get(ARCHIVE)
+    for request in REQUESTS:
+        if request not in manifest:
+            print(f'Found no entries for "{request}" in the manifest')
+        else:
+            requested_archive = manifest.get(request)
+            source = requested_archive['source']
+            target = requested_archive['target']
 
-    if not inventories:
-        print(f'Found no entries for "{ARCHIVE}" in the master list')
-    else:
-        print(ARCHIVE.upper())
-        for (n, filename) in enumerate(inventories, 1):
-            inv = Inventory(filename, INPUTZIP)
-            print(f'  ({n}) {filename} (type: {inv.type})')
+            print(request.upper())
+            print('=' * len(request))
+            print("Source:", source)
+            print("Target:", target)
 
-            inv.read_data()
+            for file in source:
+                path = os.path.join(SOURCEDIR, file)
+                inv = Inventory(path)
+                inv.from_dirlist()
+                print(f'Inventory contains {len(inv.assets)} assets')
 
 
 if __name__ == "__main__":

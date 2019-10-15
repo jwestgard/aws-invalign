@@ -1,16 +1,26 @@
 Archive001:
+  source:
     - master_inventories/Archive001_2010-07-27_bnafilelist.txt
     - master_inventories/Archive001_2010-07-27_ntlfilelist.txt
     - master_inventories/Archive001_2010-07-27_rarefilelist.txt
     - master_inventories/Archive001_2010-07-27_univarchfilelist.txt
+  target:
+    -
 Archive002:
+  source:
     - master_inventories/Archive001_2010-07-27_litmssfilelist.txt
     - master_inventories/Archive002-2010-11-22_litmssfilelist.txt
     - master_inventories/Archive002-2010-11-22_prangefilelist.txt
     - master_inventories/Archive002-2010-11-22_wfcfilelist.txt
+  target:
+    -
 Archive003:
+  source:
     - master_inventories/Archive003_2011-07-20_filelist.txt
+  target:
+    -
 Archive004:
+  source:
     - master_inventories/Archive004_2011-10-17_baronessmicrofilmreel01tiffs.txt
     - master_inventories/Archive004_2011-10-17_baronessmicrofilmreel02tiffs.txt
     - master_inventories/Archive004_2011-10-17_baronessmicrofilmreel03tiffs.txt
@@ -20,259 +30,634 @@ Archive004:
     - master_inventories/Archive004_2011-10-17_litmss.txt
     - master_inventories/Archive004_2011-10-17_ntl.txt
     - master_inventories/Archive004_2011-10-17_univarch.txt
+  target:
+    -
 Archive005:
+  source:
     - master_inventories/Archive005_2011-11-22_digitalcollectionsarchive.txt
     - master_inventories/Archive005_2011-11-22_DITchecksums.txt
+  target:
+    -
 Archive006:
+  source:
     - master_inventories/Archive006_2011-12-20_DITchecksums.txt
     - master_inventories/Archive006_2011-12-20_DSfilelist.txt
+  target:
+    -
 Archive007:
+  source:
     - master_inventories/Archive007_2012-02-07_DITchecksums.txt
+  target:
+    -
 Archive008:
+  source:
     - master_inventories/Archive008_2012-03-16_filelist.txt
+  target:
+    -
 Archive009:
+  source:
     - master_inventories/Archive009_2012-04-16_DITchecksums.txt
+  target:
+    -
 Archive010:
+  source:
     - master_inventories/Archive010_2012-05-21_DITchecksums.txt
+  target:
+    -
 Archive011:
+  source:
     - master_inventories/Archive011_2012-06-18_DITchecksums.txt
+  target:
+    -
 Archive012:
+  source:
     - master_inventories/Archive012_2012-08-28_DSchecksums2.csv
+  target:
+    -
 Archive013:
+  source:
     - master_inventories/Archive013_2012-10-01_DITchecksums.txt
     - master_inventories/Archive013_2012-10-01_DSchecksums.txt
+  target:
+    -
 Archive014:
+  source:
     - master_inventories/Archive014_2012-10-15_DITchecksums.txt
+  target:
+    -
 Archive015:
+  source:
     - master_inventories/Archive015_2012-12-07_DITchecksums.txt
+  target:
+    -
 Archive016:
+  source:
     - master_inventories/Archive016_2012-12-11_DITchecksums.txt
+  target:
+    -
 Archive017:
+  source:
     - master_inventories/Archive017_2013-01-02_DITchecksums.txt
+  target:
+    -
 Archive018:
+  source:
     - master_inventories/Archive018_2013-02-06_DITchecksums.txt
+  target:
+    -
 Archive019:
+  source:
     - master_inventories/Archive019_2013-02-18_DITchecksums.txt
+  target:
+    -
 Archive020:
+  source:
     - master_inventories/Archive020_2013-03-29_DITchecksums.txt
+  target:
+    -
 Archive021:
+  source:
     - master_inventories/Archive021_2013-05-03_DITchecksums.txt
+  target:
+    -
 Archive022:
+  source:
     - master_inventories/Archive022_2013-06-11_DITchecksums.txt
+  target:
+    -
 Archive023:
+  source:
     - master_inventories/Archive023_2013-06-24_DITchecksums.txt
+  target:
+    -
 Archive024:
+  source:
     - master_inventories/Archive024_2013-07-26_DITchecksums.txt
+  target:
+    -
 Archive025:
+  source:
     - master_inventories/archive025_2013-08-21_USSchecksums.txt
+  target:
+    -
 Archive026:
+  source:
     - master_inventories/Archive026_2013_09_24_DITchecksums.txt.txt
+  target:
+    -
 Archive027:
+  source:
     - master_inventories/archive027-2014-01-10_USSchecksums.txt
+  target:
+    -
 Archive028:
+  source:
     - master_inventories/archive028_2014-01-27_USSchecksums.txt
+  target:
+    -
 Archive029:
+  source:
     - master_inventories/archive029_2014-02-07_USSchecksums.txt
+  target:
+    -
 Archive030:
+  source:
     - master_inventories/Archive030_2014-04-23_USSchecksums-all.txt
+  target:
+    -
 Archive031:
+  source:
     - master_inventories/Archive031_2014-03-13_DPIdetails.txt
+  target:
+    -
 Archive032:
+  source:
     - master_inventories/Archive032_2014-04-03_DPIdetails.txt
+  target:
+    -
 Archive033:
+  source:
     - master_inventories/Archive033_2014-04-07_USSchecksums.txt
+  target:
+    -
 Archive034:
+  source:
     - master_inventories/Archive034_2014-04-24_DPIdetails.txt
+  target:
+    -
 Archive035:
+  source:
     - master_inventories/Archive035_2014-06-05_USSchecksums.txt
+  target:
+    -
 Archive036:
+  source:
     - master_inventories/Archive036_2014-07-07_USSchecksums.txt
+  target:
+    -
 Archive037:
+  source:
     - master_inventories/Archive037_2014-08-14_DPIDetails.txt
+  target:
+    -
 Archive038:
+  source:
     - master_inventories/Archive038_2014-09-25_DPIDetails.txt
+  target:
+    -
 Archive039:
+  source:
     - master_inventories/Archive039_2014-11-25_DPIDetails.txt
+  target:
+    -
 Archive040:
+  source:
     - master_inventories/Archive040_2015-01-09_AAP_DPIdetails.txt
+  target:
+    -
 Archive041:
+  source:
     - master_inventories/Archive041_2015-02-11_DPIdetails.txt
+  target:
+    -
 Archive042:
+  source:
     - master_inventories/Archive042_2015-03-25_DPIdetailsALL.txt
+  target:
+    -
 Archive043:
+  source:
     - master_inventories/Archive043_2015-04-17_DPIdetails.txt
+  target:
+    -
 Archive044:
+  source:
     - master_inventories/Archive044_2015-05-05_DPIdetails.txt
+  target:
+    -
 Archive045:
+  source:
     - master_inventories/Archive045_2015-05-26_DPIdetails.txt
+  target:
+    -
 Archive0046:
+  source:
     - master_inventories/Archive046_2015-06-24_DPIdetails.txt
+  target:
+    -
 Archive047:
+  source:
     - master_inventories/Archive047_2015-07-23_DPIdetails.txt
     - master_inventories/Archive047_2015-08-07_DPIdetails_rerun.txt
+  target:
+    -
 Archive048:
+  source:
     - master_inventories/Archive048_2015-08-28_DPIdetails.txt
+  target:
+    -
 Archive049:
+  source:
     - master_inventories/Archive049_2015-09-21_DPIdetails.txt
+  target:
+    -
 Archive050:
+  source:
     - master_inventories/Archive050_2015-09-21_DPIdetails.txt
+  target:
+    -
 Archive051:
+  source:
     - master_inventories/Archive051_2015-09-21_DPIdetails.txt
+  target:
+    -
 Archive052:
+  source:
     - master_inventories/Archive052_2015-09-21_DPIdetails.txt
+  target:
+    -
 Archive053:
+  source:
     - master_inventories/Archive053_2015-09-21_DPIdetails.txt
+  target:
+    -
 Archive054:
+  source:
     - master_inventories/Archive054_2015-09-22_DPIdetails.txt
+  target:
+    -
 Archive055:
+  source:
     - master_inventories/Archive055_2015-09-25_DPIdetails.txt
+  target:
+    -
 Archive056:
+  source:
     - master_inventories/Archive056_2015-10-12_DPIdetails.txt
+  target:
+    -
 Archive057:
+  source:
     - master_inventories/Archive057_2015-10-26_DPIdetails.txt
+  target:
+    -
 Archive058:
+  source:
     - master_inventories/Archive058_2015-11-30_DPIdetails.txt
+  target:
+    -
 Archive059:
+  source:
     - master_inventories/Archive059_2016-02-04_DPIdetails.txt
+  target:
+    -
 Archive060:
+  source:
     - master_inventories/Archive060_2016-02-17_DPIdetails.txt
+  target:
+    -
 Archive061:
+  source:
     - master_inventories/Archive061_2016-03-04_DPIdetails.txt
+  target:
+    -
 Archive062:
+  source:
     - master_inventories/Archive062_2016-04-15_DPIdetails.txt
+  target:
+    -
 Archive063:
+  source:
     - master_inventories/Archive063_2016-05-09_DPIdetails.txt
+  target:
+    -
 Archive064:
+  source:
     - master_inventories/Archive064_2016-05-26_DPIdetails.txt
+  target:
+    -
 Archive065:
+  source:
     - master_inventories/Archive065_2016-06-10_DPIdetails.txt
+  target:
+    -
 Archive066:
+  source:
     - master_inventories/Archive066_2016-06-13_DPIdetails.txt
+  target:
+    -
 Archive067:
+  source:
     - master_inventories/Archive067_2016-06-22_DPIdetails.txt
+  target:
+    -
 Archive068:
+  source:
     - master_inventories/Archive068_2016-06-28_DPIdetails.txt
+  target:
+    -
 Archive069:
+  source:
     - master_inventories/Archive069_2016-06-30_DPIdetails.txt
+  target:
+    -
 Archive070:
+  source:
     - master_inventories/Archive070_2016-07-21_DPIdetails.txt
+  target:
+    -
 Archive071:
+  source:
     - master_inventories/Archive071_2016-07-21_DPIdetails.txt
+  target:
+    -
 Archive072:
+  source:
     - master_inventories/Archive072_2016-08-04_DPIdetails.txt
+  target:
+    -
 Archive073:
+  source:
     - master_inventories/Archive073_2016-08-12_pythonscript.txt
+  target:
+    -
 Archive074:
+  source:
     - master_inventories/Archive074_2016-08-12_pythonscript.txt
+  target:
+    -
 Archive075:
+  source:
     - master_inventories/Archive075_2016-11-01_pythonscript.csv
+  target:
+    -
 Archive076:
+  source:
     - master_inventories/Archive076_2016-12-06_pythonscript.csv
+  target:
+    -
 Archive077:
+  source:
     - master_inventories/Archive077_2016-12-06_pythonscript.csv
+  target:
+    -
 Archive078:
+  source:
     - master_inventories/Archive078_2017-02-02_pythonscript.csv
+  target:
+    -
 Archive079:
+  source:
     - master_inventories/Archive079_2017-02-07_pythonscript.csv
+  target:
+    -
 Archive080:
+  source:
     - master_inventories/Archive080_2017-02-09_pythonscript.csv
+  target:
+    -
 Archive081:
+  source:
     - master_inventories/Archive081_2017-02-13_pythonscript.txt
+  target:
+    -
 Archive082:
+  source:
     - master_inventories/Archive082_2017-02-15_pythonscript.csv
+  target:
+    -
 Archive083:
+  source:
     - master_inventories/Archive083_2017-02-20_pythonscript.csv
+  target:
+    -
 Archive084:
+  source:
     - master_inventories/Archive084_2017-04-21_pythonscript.csv
+  target:
+    -
 Archive085:
+  source:
     - master_inventories/Archive085_2017-05-26_pythonscript.csv
+  target:
+    -
 Archive086:
+  source:
     - master_inventories/Archive086_2017-05-30_pythonscript.csv
+  target:
+    -
 Archive087:
+  source:
     - master_inventories/Archive087_2017-03-27_pythonscript.csv
+  target:
+    -
 Archive088:
+  source:
     - master_inventories/Archive088_2017-04-06_pythonscript.csv
+  target:
+    -
 Archive089:
+  source:
     - master_inventories/Archive089_2017-04-06_pythonscript.csv
+  target:
+    -
 Archive090:
+  source:
     - master_inventories/Archive090_2017-06-05_pythonscript.csv
+  target:
+    -
 Archive091:
+  source:
     - master_inventories/Archive091_2017-06-12_pythonscript.csv
+  target:
+    -
 Archive092:
+  source:
     - master_inventories/Archive092_2017-06-15_pythonscript.csv
+  target:
+    -
 Archive093:
+  source:
     - master_inventories/Archive093_2017-07-05_pythonscript.csv
+  target:
+    -
 Archive094:
+  source:
     - master_inventories/Archive094_2017-07-10_pythonscript.csv
+  target:
+    -
 Archive095:
+  source:
     - master_inventories/Archive095_2017-07-19_pythonscript.csv
+  target:
+    -
 Archive096:
+  source:
     - master_inventories/Archive096_2017-08-04_pythonscript.csv
+  target:
+    -
 Archive097:
+  source:
     - master_inventories/Archive097_2017-08-10_pythonscript.csv
+  target:
+    -
 Archive098:
+  source:
     - master_inventories/Archive098_2017-09-22_pythonscript.csv
+  target:
+    -
 Archive099:
+  source:
     - master_inventories/Archive099_2018-02-01_pythonscript.csv
+  target:
+    -
 Archive100:
+  source:
     - master_inventories/Archive100_2018-05-25_pythonscript.csv
+  target:
+    -
 Archive101:
+  source:
     - master_inventories/Archive101_2018-05-30_pythonscript.csv
+  target:
+    -
 Archive102:
+  source:
     - master_inventories/Archive102_2018-06-11_pythonscript.csv
+  target:
+    -
 Archive103:
+  source:
     - master_inventories/Archive103_2018-06-13_pythonscript.csv
+  target:
+    -
 Archive104:
+  source:
     - master_inventories/Archive104_2018-06-15_pythonscript.csv
+  target:
+    -
 Archive105:
+  source:
     - master_inventories/Archive105_2018-06-20_pythonscript.csv
+  target:
+    -
 Archive106:
+  source:
     - master_inventories/Archive106_2018-11-29_pythonscript_rev.csv
+  target:
+    -
 Archive107:
+  source:
     - master_inventories/Archive107_2018-12-06_pythonscript.csv
+  target:
+    -
 Archive108:
+  source:
     - master_inventories/Archive108_2018-12-31_pythonscript.csv
+  target:
+    -
 Archive109:
+  source:
     - master_inventories/Archive109_2018-06-25_pythonscript.csv
+  target:
+    -
 Archive110:
+  source:
     - master_inventories/Archive110_2018-06-27_pythonscript.csv
+  target:
+    -
 Archive111:
+  source:
     - master_inventories/Archive111_2018-08-06_pythonscript.csv
+  target:
+    -
 Archive112:
+  source:
     - master_inventories/Archive112_2018-08-27_pythonscript.csv
+  target:
+    -
 Archive113:
+  source:
     - master_inventories/Archive113_2018-09-05_pythonscript.csv
+  target:
+    -
 Archive114:
+  source:
     - master_inventories/Archive114_2018-08-27_pythonscript.csv
+  target:
+    -
 Archive115:
+  source:
     - master_inventories/Archive115_2018-09-13_pythonscript.csv
+  target:
+    -
 Archive116:
+  source:
     - master_inventories/Archive116_2018-09-20_pythonscript.csv
+  target:
+    -
 Archive117:
+  source:
     - master_inventories/Archive117_2018-09-24_pythonscript.csv
+  target:
+    -
 Archive118:
+  source:
     - master_inventories/Archive118_2018-08-24_pythonscript.csv
+  target:
+    -
 Archive119:
+  source:
     - master_inventories/Archive119_2019-01-16_pythonscript.csv
+  target:
+    -
 Archive120:
+  source:
     - master_inventories/Archive120_2019-01-25_pythonscript.csv
+  target:
+    -
 Archive121:
+  source:
     - master_inventories/Archive121_2019-01-30_pythonscript.csv
+  target:
+    -
 Archive122:
+  source:
     - master_inventories/Archive122_2019-03-05_pythonscript.csv
+  target:
+    -
 Archive123:
+  source:
     - master_inventories/Archive123_2019-03-05_pythonscript.csv
+  target:
+    -
 Archive124:
+  source:
     - master_inventories/Archive124_2019-02-06_pythonscript.csv
+  target:
+    -
 Archive125:
+  source:
     - master_inventories/Archive125_2019-02-13_pythonscript.csv
+  target:
+    -
 Archive126:
+  source:
     - master_inventories/Archive126_2019-02-19_pythonscript.csv
+  target:
+    -
 Archive127:
+  source:
     - master_inventories/Archive127_2018-12-06_pythonscript.csv
+  target:
+    -
 Archive130:
+  source:
     - master_inventories/Archive130_2019-04-15_pythonscript.csv
+  target:
+    -
 ArchiveKAP:
+  source:
     - master_inventories/KAP1.txt
     - master_inventories/KAP2.txt
     - master_inventories/KAP3.txt
@@ -282,3 +667,5 @@ ArchiveKAP:
     - master_inventories/KAP7.txt
     - master_inventories/KAP8.txt
     - master_inventories/KAP9.txt
+  target:
+    -
