@@ -2,6 +2,7 @@ import csv
 from io import StringIO
 from zipfile import ZipFile
 import os
+import sys
 
 
 class Inventory():
@@ -17,6 +18,7 @@ class Inventory():
                 self.contents = handle.read()
         else:
             print(f'Could not access {self.path}')
+            sys.exit(1)
 
 
     def from_zipfile(self, filename, ziparchive):
