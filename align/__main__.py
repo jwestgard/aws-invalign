@@ -34,7 +34,7 @@ def main():
     INPUTZIP  = config['INPUTZIP']
     SOURCEDIR = config['SOURCEDIR']
     TARGETDIR = config['TARGETDIR']
-    REQUESTS  = sys.argv[2:] or config['REQUESTS']
+    REQUESTS  = sys.argv[2:]
 
     with open(MANIFEST) as handle:
         manifest = yaml.safe_load(handle)

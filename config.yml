@@ -1,12 +1,4 @@
-
 MANIFEST:   'data/master_index.yml'
-
 INPUTZIP:   '/Users/westgard/Desktop/original_inventories.zip'
-
-REQUESTS:
-  - Archive100
-  - Archive101
-
-SOURCEDIR:  '/home/jwestgard/Desktop'
-
-TARGETDIR:  '~/Desktop/target'
+SOURCEDIR:  '/Users/westgard/Box Sync/DPI Projects/DigitalPreservation/aws_migration/data/'
+TARGETDIR:  '/Users/westgard/Box Sync/DPI Projects/DigitalPreservation/aws_migration/data/restored_inventories'

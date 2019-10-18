@@ -11,11 +11,18 @@ class Inventory():
        with option to read from various file formats'''
 
     def __init__(self, path):
+        encodings = ['ascii', 'utf-8', 'latin-1']
         self.path = path
         self.reachable = os.path.isfile(path)
         if self.reachable:
-            with open(path) as handle:
-                self.contents = handle.read()
+            for encoding in encodings:
+                try:
+                    with open(path, encoding=encoding) as handle:
+                        self.contents = handle.read()
+                        break
+                except ValueError:
+                    continue
+            print('could not decode file')
         else:
             print(f'Could not access {self.path}')
             sys.exit(1)
@@ -28,7 +35,7 @@ class Inventory():
                 try:
                     self.text = self.bytes.decode('utf-8')
                 except UnicodeDecodeError:
-                    self.text = self.bytes.decode('windows-1252')
+                    self.text = self.bytes.decode('latin-1')
         if self.text.startswith(' Volume in drive'):
             self.type = 'dirlist'
         else:
