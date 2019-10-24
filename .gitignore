@@ -106,3 +106,4 @@ venv.bak/
 # project-specific ignores
 config/*
 !config/template.yml
+.DS_Store
