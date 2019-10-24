@@ -1,0 +1,4 @@
+MANIFEST:   '' # map source inventories to target inventories
+INPUTZIP:   '' # (optional) zip archive to read from
+SOURCEDIR:  '' # master inventories root
+TARGETDIR:  '' # restored inventories root
