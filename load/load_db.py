@@ -33,9 +33,12 @@ class Inventory():
             self.batch_date = parts[1]
         else:
             self.batch_date = None
+        self.contents = self.populate()
 
     def populate(self):
-        
+        with open(self.path) as handle:
+            lines = handle.readlines()
+        print(lines[0])
 
     def calculate_md5(self):
         hash = hashlib.md5()
@@ -46,7 +49,7 @@ class Inventory():
                 if not datablock:
                     break
         return hash.hexdigest()                    
-            
+
     def parse(self):
         encodings = ['ascii', 'utf8', 'latin-1']
         for encoding in encodings:
