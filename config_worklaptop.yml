@@ -1,7 +1,0 @@
-MANIFEST:   'data/master_index.yml'
-INPUTZIP:   '/Users/westgard/Desktop/original_inventories.zip'
-REQUESTS:
-  - Archive100
-  - Archive101
-SOURCEDIR:  '/home/jwestgard/Desktop'
-TARGETDIR:  '~/Desktop/target'
