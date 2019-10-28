@@ -1,0 +1,156 @@
+id,bytes,assets,overlap,percent,master_file,restore_file
+Archive001,0,0,0,0,Archive001_2010-07-27_bnafilelist.txt,
+Archive001,0,0,0,0,Archive001_2010-07-27_ntlfilelist.txt,
+Archive001,0,0,0,0,Archive001_2010-07-27_rarefilelist.txt,
+Archive001,0,0,0,0,Archive001_2010-07-27_univarchfilelist.txt,
+Archive002,0,0,0,0,Archive001_2010-07-27_litmssfilelist.txt,
+Archive002,0,0,0,0,Archive002-2010-11-22_litmssfilelist.txt,
+Archive002,0,0,0,0,Archive002-2010-11-22_prangefilelist.txt,
+Archive002,0,0,0,0,Archive002-2010-11-22_wfcfilelist.txt,
+Archive003,0,0,0,0,Archive003_2011-07-20_filelist.txt,
+Archive004,0,0,0,0,Archive004_2011-10-17_baronessmicrofilmreel01tiffs.txt,
+Archive004,0,0,0,0,Archive004_2011-10-17_baronessmicrofilmreel02tiffs.txt,
+Archive004,0,0,0,0,Archive004_2011-10-17_baronessmicrofilmreel03tiffs.txt,
+Archive004,0,0,0,0,Archive004_2011-10-17_baronessmicrofilmreel04tiffs.txt,
+Archive004,0,0,0,0,Archive004_2011-10-17_baronessmicrofilmreel05tiffs.txt,
+Archive004,0,0,0,0,Archive004_2011-10-17_histmss.txt,
+Archive004,0,0,0,0,Archive004_2011-10-17_litmss.txt,
+Archive004,0,0,0,0,Archive004_2011-10-17_ntl.txt,
+Archive004,0,0,0,0,Archive004_2011-10-17_univarch.txt,
+Archive005,0,0,0,0,Archive005_2011-11-22_digitalcollectionsarchive.txt,
+Archive005,451349792102,14632,14632,100.0,Archive005_2011-11-22_DITchecksums.txt,DCR_Archive_11262011.csv
+Archive006,80551964268,2205,2205,100.0,Archive006_2011-12-20_DITchecksums.txt,DCR_Archive_12302011.csv
+Archive006,0,0,0,0,Archive006_2011-12-20_DSfilelist.txt,
+Archive007,64099444107,1271,1271,100.0,Archive007_2012-02-07_DITchecksums.txt,DCR_ARCHIVE_02072012.csv
+Archive008,0,0,0,0,Archive008_2012-03-16_filelist.txt,
+Archive009,18779196660,608,608,100.0,Archive009_2012-04-16_DITchecksums.txt,DCR_Archive_04162012.csv
+Archive010,14185227172,438,437,99.77,Archive010_2012-05-21_DITchecksums.txt,DCR_Archive_05212012.csv
+Archive011,49795460855,1238,1238,100.0,Archive011_2012-06-18_DITchecksums.txt,DCR_Archive_06262012.csv
+Archive012,0,0,0,0,Archive012_2012-08-28_DSchecksums2.csv,
+Archive013,12809055382,299,299,100.0,Archive013_2012-10-01_DITchecksums.txt,DCR_ARCHIVE_02072012.csv
+Archive013,0,299,0,0,Archive013_2012-10-01_DSchecksums.txt,
+Archive014,11386466652,96,95,98.96,Archive014_2012-10-15_DITchecksums.txt,DCR Archive Date 10162012.csv
+Archive015,6728519862,158,157,99.37,Archive015_2012-12-07_DITchecksums.txt,DCR_Archive_12072012.csv
+Archive016,40555390118,293,293,100.0,Archive016_2012-12-11_DITchecksums.txt,internetarchive2barchived - Archived 12112012.csv
+Archive017,32244417335,844,843,99.88,Archive017_2013-01-02_DITchecksums.txt,Archive Date 01022013 - DCR Projects Archive.csv
+Archive018,85385348943,1055,1054,99.91,Archive018_2013-02-06_DITchecksums.txt,DCR_Projects_Archive018 Date 02062013.csv
+Archive019,22549987266,1543,1542,99.94,Archive019_2013-02-18_DITchecksums.txt,DCR_Projects_Archive019 2013-02-18 - Archived 02192013.csv
+Archive020,16785087572,534,533,99.81,Archive020_2013-03-29_DITchecksums.txt,DCR_Projects_Archive20 Date 04012013.csv
+Archive021,42045237904,794,793,99.87,Archive021_2013-05-03_DITchecksums.txt,DCR_Project_Archive021 - Date 05032013.csv
+Archive022,48079918421,1330,1329,99.92,Archive022_2013-06-11_DITchecksums.txt,DCR_Project_Archive21_Date 06112013.csv
+Archive023,34895016848,1624,1623,99.94,Archive023_2013-06-24_DITchecksums.txt,DCR_Projects_Archive023 Date 06242013.csv
+Archive024,56137318749,1450,1449,99.93,Archive024_2013-07-26_DITchecksums.txt,DCR_Projects_Archive_024 Date 07262013.csv
+Archive025,186356954953,1195,1194,99.92,archive025_2013-08-21_USSchecksums.txt,DCR_Projects_Archive025 Date 08282013.csv
+Archive026,177078718207,2317,2316,99.96,Archive026_2013_09_24_DITchecksums.txt.txt,DCR_Projects_Archive026 Date 09242013.csv
+Archive027,232086353272,6069,6068,99.98,archive027-2014-01-10_USSchecksums.txt,DCR_Projects_Archive027 - Archive Date 01102014.csv
+Archive028,31820528679,603,602,99.83,archive028_2014-01-27_USSchecksums.txt,DCR_Projects_Archive028 Date 01172014.csv
+Archive029,50601893104,1539,1538,99.94,archive029_2014-02-07_USSchecksums.txt,DCR_Projects_Archive028 Date 01172014 retry.csv
+Archive030,175513591808,17395,0,0,Archive030_2014-04-23_USSchecksums-all.txt,
+Archive031,0,0,0,0,Archive031_2014-03-13_DPIdetails.txt,
+Archive032,0,0,0,0,Archive032_2014-04-03_DPIdetails.txt,
+Archive033,1637942740324,4614,4501,97.55,Archive033_2014-04-07_USSchecksums.txt,Internet_Archive_WARC_Archive033 04142014.csv
+Archive034,0,0,0,0,Archive034_2014-04-24_DPIdetails.txt,
+Archive035,165078257020,561,560,99.82,Archive035_2014-06-05_USSchecksums.txt,DCR_Projects_Archive035 Date 06122014.csv
+Archive036,504394465020,2777,2776,99.96,Archive036_2014-07-07_USSchecksums.txt,DCR_Projects_Archive036 Date 07082014.csv
+Archive037,0,0,0,0,Archive037_2014-08-14_DPIDetails.txt,
+Archive038,0,0,0,0,Archive038_2014-09-25_DPIDetails.txt,
+Archive039,0,0,0,0,Archive039_2014-11-25_DPIDetails.txt,
+Archive040,0,0,0,0,Archive040_2015-01-09_AAP_DPIdetails.txt,
+Archive041,0,0,0,0,Archive041_2015-02-11_DPIdetails.txt,
+Archive042,0,0,0,0,Archive042_2015-03-25_DPIdetailsALL.txt,
+Archive043,0,0,0,0,Archive043_2015-04-17_DPIdetails.txt,
+Archive044,0,0,0,0,Archive044_2015-05-05_DPIdetails.txt,
+Archive045,0,0,0,0,Archive045_2015-05-26_DPIdetails.txt,
+Archive046,0,0,0,0,Archive046_2015-06-24_DPIdetails.txt,
+Archive047,0,0,0,0,Archive047_2015-07-23_DPIdetails.txt,
+Archive047,0,0,0,0,Archive047_2015-08-07_DPIdetails_rerun.txt,
+Archive048,0,0,0,0,Archive048_2015-08-28_DPIdetails.txt,
+Archive049,0,0,0,0,Archive049_2015-09-21_DPIdetails.txt,
+Archive050,0,0,0,0,Archive050_2015-09-21_DPIdetails.txt,
+Archive051,0,0,0,0,Archive051_2015-09-21_DPIdetails.txt,
+Archive052,0,0,0,0,Archive052_2015-09-21_DPIdetails.txt,
+Archive053,0,0,0,0,Archive053_2015-09-21_DPIdetails.txt,
+Archive054,0,0,0,0,Archive054_2015-09-22_DPIdetails.txt,
+Archive055,0,0,0,0,Archive055_2015-09-25_DPIdetails.txt,
+Archive056,0,0,0,0,Archive056_2015-10-12_DPIdetails.txt,
+Archive057,0,0,0,0,Archive057_2015-10-26_DPIdetails.txt,
+Archive058,0,0,0,0,Archive058_2015-11-30_DPIdetails.txt,
+Archive059,0,0,0,0,Archive059_2016-02-04_DPIdetails.txt,
+Archive060,0,0,0,0,Archive060_2016-02-17_DPIdetails.txt,
+Archive061,0,0,0,0,Archive061_2016-03-04_DPIdetails.txt,
+Archive062,0,0,0,0,Archive062_2016-04-15_DPIdetails.txt,
+Archive063,0,0,0,0,Archive063_2016-05-09_DPIdetails.txt,
+Archive064,0,0,0,0,Archive064_2016-05-26_DPIdetails.txt,
+Archive065,0,0,0,0,Archive065_2016-06-10_DPIdetails.txt,
+Archive066,0,0,0,0,Archive066_2016-06-13_DPIdetails.txt,
+Archive067,0,0,0,0,Archive067_2016-06-22_DPIdetails.txt,
+Archive068,0,0,0,0,Archive068_2016-06-28_DPIdetails.txt,
+Archive069,0,0,0,0,Archive069_2016-06-30_DPIdetails.txt,
+Archive070,0,0,0,0,Archive070_2016-07-21_DPIdetails.txt,
+Archive071,0,0,0,0,Archive071_2016-07-21_DPIdetails.txt,
+Archive072,0,0,0,0,Archive072_2016-08-04_DPIdetails.txt,
+Archive073,2794789133148,12187,4012,32.92,Archive073_2016-08-12_pythonscript.txt,DCR_Projects_Archive073 - Date 10252016.csv
+Archive074,61499439462,1162,1162,100.0,Archive074_2016-08-12_pythonscript.txt,DCR_Projects_Archive074 - Date 982016.csv
+Archive075,399480216277,3604,3603,99.97,Archive075_2016-11-01_pythonscript.csv,DCR_Projects_Archive075 - Date 11102016.csv
+Archive076,3286134003511,258,256,99.22,Archive076_2016-12-06_pythonscript.csv,DCR_Projects_Archive076 - Date 372017.csv
+Archive077,2259019717036,1329,1328,99.92,Archive077_2016-12-06_pythonscript.csv,DCR_Projects_Archive077 - Date 3132017.csv
+Archive078,3383748196754,78,78,100.0,Archive078_2017-02-02_pythonscript.csv,DCR_Projects_Archive078 - Date 02212017.csv
+Archive079,3420950879671,282,282,100.0,Archive079_2017-02-07_pythonscript.csv,DCR_Projects_Archive079 - Date 2282017.csv
+Archive080,894646822374,58,57,98.28,Archive080_2017-02-09_pythonscript.csv,DCR_Projects_Archive080 - Date 442017.csv
+Archive081,410901941083,12056,12056,100.0,Archive081_2017-02-13_pythonscript.txt,DCR_Projects_Archive081 - Date 02142017.csv
+Archive082,2051987206741,173,53,30.64,Archive082_2017-02-15_pythonscript.csv,DCR_Projects_Archive082 - Date 622017.csv
+Archive083,55742923326,1460,1460,100.0,Archive083_2017-02-20_pythonscript.csv,DCR_Projects_Archive083 - Date 02282017.csv
+Archive084,3364576173089,106,106,100.0,Archive084_2017-04-21_pythonscript.csv,DCR_Projects_Archive084 - Date 04282017.csv
+Archive085,3380200818518,113,112,99.12,Archive085_2017-05-26_pythonscript.csv,DCR_Projects_Archive085 - Date 5262017.csv
+Archive086,590412680980,28,28,100.0,Archive086_2017-05-30_pythonscript.csv,DCR_Projects_Archive086 - Date 5312017.csv
+Archive087,67375791288,3395,3395,100.0,Archive087_2017-03-27_pythonscript.csv,DCR_Projects_Archive087 - Date 03282017.csv
+Archive088,2304681531978,559,559,100.0,Archive088_2017-04-06_pythonscript.csv,DCR_Projects_Archive088 - Date 472016.csv
+Archive089,1014707729846,12348,12348,100.0,Archive089_2017-04-06_pythonscript.csv,DCR_Projects_Archive089 - Date 4142017.csv
+Archive090,3423263809502,323,312,96.59,Archive090_2017-06-05_pythonscript.csv,DCR_Projects_Archive090 - Date 682017.csv
+Archive091,3566877375642,359,0,0,Archive091_2017-06-12_pythonscript.csv,
+Archive092,397377059989,4292,4292,100.0,Archive092_2017-06-15_pythonscript.csv,DCR_Projects_Archive092 - Date 6292017.csv
+Archive093,572228408775,65,65,100.0,Archive093_2017-07-05_pythonscript.csv,DCR_Projects_Archive093 - Date 762017.csv
+Archive094,725990369273,129,128,99.22,Archive094_2017-07-10_pythonscript.csv,DCR_Projects_Archive094 - Date 7142017.csv
+Archive095,482608357640,28,28,100.0,Archive095_2017-07-19_pythonscript.csv,DCR_Projects_Archive095 - Date 8032017.csv
+Archive096,765172420892,5227,5227,100.0,Archive096_2017-08-04_pythonscript.csv,DCR_Projects_Archive096 - Date 08092017.csv
+Archive097,1660931188245,262,261,99.62,Archive097_2017-08-10_pythonscript.csv,DCR_Projects_Archive097 - Date 8112017.csv
+Archive098,650451124589,3437,3436,99.97,Archive098_2017-09-22_pythonscript.csv,DCR_Projects_Archive098 - Date 09272017.csv
+Archive099,671129310216,7856,7855,99.99,Archive099_2018-02-01_pythonscript.csv,DCR_Projects_Archive099 - Date 4132018.csv
+Archive100,140048421323,890,890,100.0,Archive100_2018-05-25_pythonscript.csv,DCR_Projects_Archive100 - Date 5292018.csv
+Archive101,3357935355267,199,199,100.0,Archive101_2018-05-30_pythonscript.csv,DCR_Projects_Archive101 - Date 642018.csv
+Archive102,1505504336586,68,68,100.0,Archive102_2018-06-11_pythonscript.csv,DCR_Projects_Archive102 - Date 6112018.csv
+Archive103,526604852989,1337,1337,100.0,Archive103_2018-06-13_pythonscript.csv,DCR_Projects_Archive103 - Date 6142018.csv
+Archive104,438476096169,273,273,100.0,Archive104_2018-06-15_pythonscript.csv,DCR_Projects_Archive104 - Date 6192018.csv
+Archive105,1849452043420,877,876,99.89,Archive105_2018-06-20_pythonscript.csv,DCR_Projects_Archive105 - Date 6212018.csv
+Archive106,2540707055117,422,421,99.76,Archive106_2018-11-29_pythonscript_rev.csv,DCR_Projects_Archive106 - Date 1242018.csv
+Archive107,3306482723888,224,221,98.66,Archive107_2018-12-06_pythonscript.csv,DCR_Projects_Archive107 - Date 12132018.csv
+Archive108,3414642302010,294,292,99.32,Archive108_2018-12-31_pythonscript.csv,DCR_Projects_Archive108 - Date 172019.csv
+Archive109,1725888206091,61,61,100.0,Archive109_2018-06-25_pythonscript.csv,DCR_Projects_Archive109 - Date 6262018.csv
+Archive110,1867670228439,46,46,100.0,Archive110_2018-06-27_pythonscript.csv,DCR_Projects_Archive110 - Date 6282018.csv
+Archive111,988565125439,33801,33801,100.0,Archive111_2018-08-06_pythonscript.csv,DCR_Projects_Archive111 - Date 892018.csv
+Archive112,70289582304,8408,8408,100.0,Archive112_2018-08-27_pythonscript.csv,DCR_Projects_Archive112 - Date 8282018.csv
+Archive113,399559315561,12692,12692,100.0,Archive113_2018-09-05_pythonscript.csv,DCR_Projects_Archive113 - Date 962018.csv
+Archive114,19125646143,137,137,100.0,Archive114_2018-08-27_pythonscript.csv,DCR_Projects_Archive114 - Date 8292018.csv
+Archive115,3064754718249,1199,1196,99.75,Archive115_2018-09-13_pythonscript.csv,DCR_Projects_Archive115 - Date 9142018.csv
+Archive116,8204834470,38,38,100.0,Archive116_2018-09-20_pythonscript.csv,DCR_Projects_Archive116 - Date 9212018.csv
+Archive117,608128342342,23,23,100.0,Archive117_2018-09-24_pythonscript.csv,DCR_Projects_Archive117 - Date 9242018.csv
+Archive118,823706165319,3759,3758,99.97,Archive118_2018-08-24_pythonscript.csv,DCR_Projects_Archive118 - Date 8242018.csv
+Archive119,561856887697,2,1,50.0,Archive119_2019-01-16_pythonscript.csv,DCR_Projects_Archive119 - Date 1102019.csv
+Archive120,3641186846251,184,183,99.46,Archive120_2019-01-25_pythonscript.csv,DCR_Projects_Archive120a - Date 1222019.csv
+Archive121,2661910985532,74,73,98.65,Archive121_2019-01-30_pythonscript.csv,DCR_Projects_Archive121 - Date 1282019.csv
+Archive122,171447817145,26881,26881,100.0,Archive122_2019-03-05_pythonscript.csv,DCR_Projects_Archive122and123 - Date 2272019.csv
+Archive123,313247031392,51188,51188,100.0,Archive123_2019-03-05_pythonscript.csv,DCR_Projects_Archive122and123 - Date 2282019.csv
+Archive124,161365045046,3091,3091,100.0,Archive124_2019-02-06_pythonscript.csv,DCR_Projects_Archive124 - Date 2052019.csv
+Archive125,74053105932,98,98,100.0,Archive125_2019-02-13_pythonscript.csv,DCR_Projects_Archive125 - Date 2122019.csv
+Archive126,2352819615844,21,21,100.0,Archive126_2019-02-19_pythonscript.csv,DCR_Projects_Archive126 - Date 2182019.csv
+Archive127,2002189334122,3792,3792,100.0,Archive127_2018-12-06_pythonscript.csv,DCR_Projects_Archive127 - Date 1272018.csv
+Archive130,1809696922937,12670,12669,99.99,Archive130_2019-04-15_pythonscript.csv,DCR_Projects_Archive130 - Date 4162019.csv
+ArchiveKAP,24695164928,2130,0,0,KAP1.txt,
+ArchiveKAP,24724557824,2173,0,0,KAP2.txt,
+ArchiveKAP,28127625216,2383,0,0,KAP3.txt,
+ArchiveKAP,26139418624,2292,0,0,KAP4.txt,
+ArchiveKAP,24097599488,2161,0,0,KAP5.txt,
+ArchiveKAP,26097008640,2530,0,0,KAP6.txt,
+ArchiveKAP,10732122112,1584,0,0,KAP7.txt,
+ArchiveKAP,6311464960,1040,0,0,KAP8.txt,
+ArchiveKAP,4588630016,1102,0,0,KAP9.txt,

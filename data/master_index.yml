@@ -240,7 +240,7 @@ Archive045:
     - master_inventories/Archive045_2015-05-26_DPIdetails.txt
   target:
     -
-Archive0046:
+Archive046:
   source:
     - master_inventories/Archive046_2015-06-24_DPIdetails.txt
   target:
