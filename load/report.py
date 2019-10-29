@@ -6,7 +6,7 @@ import yaml
 from inventory import Inventory
 
 
-ROOT = '/Users/westgard/Box Sync/DPI Projects/DigitalPreservation/aws_migration/data'
+ROOT = '/home/jwestgard/Desktop/aws/data'
 LIST = '../data/master_index.yml'
 RESTORE = 'restored_inventories'
 
