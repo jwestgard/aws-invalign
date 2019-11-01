@@ -6,7 +6,7 @@ import yaml
 from inventory import Inventory
 
 
-ROOT = '/home/jwestgard/Desktop/aws/data'
+ROOT = '/Users/westgard/Box Sync/DPI Projects/DigitalPreservation/aws_migration/data/'
 LIST = '../data/master_index.yml'
 RESTORE = 'restored_inventories'
 
@@ -54,16 +54,18 @@ def main():
             total = len(master)
             percent = 0
             intersect = master.intersection(lookup[file])
+            difference = master.difference(lookup[file])
             overlap = len(intersect)
             if overlap:
                 percent = (overlap / total) * 100
                 percent = round(percent, 2)
                 if best_match is None or percent > best_match[1]:
-                    best_match = (overlap, percent, file)
+                    best_match = (overlap, percent, file, difference)
                     print(f"Match: {overlap}/{total}={percent}%: {file}")
 
         if best_match:
-            overlap, percent, restore = best_match
+            overlap, percent, restore, difference = best_match
+            print(difference)
         else:
             overlap = 0
             percent = 0
