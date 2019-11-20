@@ -9,8 +9,14 @@ class AccessionRecord():
     under management, usually created at accession time.
     """
 
-    def __init__(self, filepath):
-        self.filename = os.path.basename(filepath)
+    def __init__(self, filename, bytes, timestamp, md5, archive, source, line):
+        self.filename = filename
+        self.bytes = bytes
+        self.timestamp = timestamp
+        self.md5 = md5
+        self.archive = archive
+        self.source = source
+        self.line = line
 
 
 class AccessionRecordList():
@@ -18,8 +24,8 @@ class AccessionRecordList():
     Class representing a group of AccessionRecords.
     """
 
-    def __init__(self, lines):
-        self.lines = lines
+    def __init__(self, contents):
+        self.contents = contents
 
     @classmethod
     def from_dirlist(cls, lines, archive, source):
@@ -39,8 +45,10 @@ class AccessionRecordList():
                     [char for char in parts[3] if char.isdigit()]
                     ))
                 filename = ' '.join(parts[4:])
-                assets.append((filename, bytes, timestamp))
-        #print(assets)
+                assets.append(
+                    AccessionRecord(filename, bytes, timestamp, md5, archive, source, n)
+                    )
+        return cls(assets)
 
     @classmethod
     def from_special(cls, lines, archive, source):
@@ -57,16 +65,16 @@ class AccessionRecordList():
                     bytes = None
                 timestamp = parts[4].strip()
                 md5 = None
-                assets.append((filename, bytes, timestamp))
-        for asset in assets:
-            print(asset)
+                assets.append(
+                    AccessionRecord(filename, bytes, timestamp, md5, archive, source, n)
+                    )
+        return cls(assets)
 
     @classmethod
     def from_csv(cls, lines, delimiter, archive, source):
         '''Read assets from a CSV file.'''
         assets = []
         reader = csv.DictReader(lines, delimiter=delimiter)
-
         for n, row in enumerate(reader):
             bytes = None
             timestamp = None
@@ -95,5 +103,8 @@ class AccessionRecordList():
                     break
                 else:
                     continue
-            assets.append((filename, bytes, timestamp))
-        #print(assets)
+            assets.append(
+                AccessionRecord(filename, bytes, timestamp, md5, archive, source, n)
+                )
+        return cls(assets)
+
