@@ -8,7 +8,7 @@ from inventory import Inventory
 
 ROOT = '/Users/westgard/Box Sync/DPI Projects/DigitalPreservation/aws_migration/data/'
 LIST = '../data/master_index.yml'
-RESTORE = 'restored_inventories'
+RESTORE = 'restored/libdcr-dpichecksums'
 
 class Batch():
 
@@ -31,7 +31,10 @@ def main():
     lookup = {}
     basedir = os.path.join(ROOT, RESTORE)
     for file in os.listdir(basedir):
+        if file.startswith('.'):
+            continue
         filepath = os.path.join(basedir, file)
+        print(filepath)
         if os.path.isdir(filepath):
             continue
         else:
@@ -66,6 +69,11 @@ def main():
         if best_match:
             overlap, percent, restore, difference = best_match
             print(difference)
+            if len(difference) > 0:
+                with open('differences.txt', 'a+') as handle:
+                    for dif in difference:
+                        if not dif[0].endswith('.md5'):
+                            handle.write("\t".join([str(i) for i in dif]) + '\n')
         else:
             overlap = 0
             percent = 0
